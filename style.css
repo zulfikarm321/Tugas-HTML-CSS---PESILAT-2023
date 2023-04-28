@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 10px;
+}
+
+section {
+  padding: 10px;
+  box-shadow: 0 0 20px 2px gray;
+  text-align: center;
+  height: max-content;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  width: 500px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+th {
+  border: 1px solid gray;
+}
+
+td {
+  border-bottom: 1px solid gray;
+}
+
+.foto_siswa {
+  width: 100px;
+}
+
+.foto_siswa_detail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  text-transform: uppercase;
+}
